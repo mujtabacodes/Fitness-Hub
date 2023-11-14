@@ -3,7 +3,7 @@
   /* Styling for the hero section */
   .hero {
     height: 100vh;
-    background-image: url('/assets/images/home.jpg'); /* Replace 'gym-background.jpg' with your image path */
+    background-image: url('/assets/images/men-back.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
