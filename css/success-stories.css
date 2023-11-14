@@ -1,0 +1,44 @@
+/* Add your CSS styles here */
+
+.success-stories-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .success-stories-section h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  .success-stories {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .success-story {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .success-story img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .success-story h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .success-story p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  

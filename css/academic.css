@@ -1,0 +1,41 @@
+/* Reset some default styles */
+
+
+main {
+    padding: 20px;
+    padding-top: 10rem;
+}
+
+#honesty,
+#references {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+
+/* Add this CSS code to your existing styles.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #c1c7ca;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}

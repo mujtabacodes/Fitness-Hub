@@ -1,0 +1,44 @@
+/* Reset some default styles and set a background color */
+main {
+    padding-top: 8rem;
+}
+
+/* Style the about us section */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the about content */
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style the image */
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
+    .about-us {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-content {
+        margin: 0;
+        text-align: left;
+    }
+    .about-image {
+        max-width: 45%;
+    }
+}

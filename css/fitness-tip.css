@@ -1,0 +1,38 @@
+/* Add your CSS styles here */
+
+.fitness-tips-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .fitness-tips-section h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  .fitness-tips {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .fitness-tip {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .fitness-tip h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .fitness-tip p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  

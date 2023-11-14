@@ -1,0 +1,43 @@
+/* Add your CSS styles here */
+
+.membership-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .membership-section h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  .membership-plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .membership-plan {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .membership-plan h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .membership-plan p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff8800;
+  }
+  

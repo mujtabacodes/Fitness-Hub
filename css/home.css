@@ -1,0 +1,130 @@
+/* Reset some default styles */
+
+  /* Styling for the hero section */
+  .hero {
+    height: 100vh;
+    background-image: url('/assets/images/home.jpg'); /* Replace 'gym-background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+  }
+  
+  /* Styling for the info section */
+  .info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+  .info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adding border radius for image */
+  }
+  
+  .info-content {
+    max-width: 50%;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  .info-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .info-content p {
+    font-size: 1.2em;
+  }
+  
+  /* Styling for the footer */
+
+  
+  /* Add your CSS styles here */
+
+/* Styling for brand list section */
+.brand-list {
+  text-align: center;
+  padding: 50px 0;
+  background-color: white;
+}
+
+.brand-list h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand-logos img {
+  max-width: 150px;
+  margin: 20px;
+}
+.our-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #e8e8e8;
+    border: 1px solid #e0e0e0;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Style the about content */
+.ourstory-content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: black;
+}
+
+/* Style the image */
+.video-container {
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.video-content{
+   width: 100%;
+}
+
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
+    .video-container {
+        padding: 5rem;
+        overflow: hidden;
+    }
+    .our-story {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ourstory-content {
+        margin: 0;
+        text-align: left;
+    }
+   
+}
