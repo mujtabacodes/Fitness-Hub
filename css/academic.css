@@ -5,6 +5,8 @@ main {
     padding: 20px;
     padding-top: 10rem;
 }
+/* Reset some default styles */
+
 
 #honesty,
 #references {
@@ -24,7 +26,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #9e7272;
 }
 
 th, td {
@@ -33,9 +35,35 @@ th, td {
 }
 
 th {
-    background-color: #c1c7ca;
+    background-color: #075c8e;
+    color: white;
 }
 
 tr:nth-child(even) {
     background-color: #ffffff;
 }
+
+
+.references {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  .references h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .references ol {
+    list-style: none;
+    counter-reset: ref-counter;
+  }
+  .references ol li {
+    counter-increment: ref-counter;
+    margin-bottom: 5px;
+  }
+  .references ol li::before {
+    content: counter(ref-counter) ".";
+    font-weight: bold;
+    margin-right: 5px;
+  }

@@ -1,4 +1,7 @@
 /* Add your CSS styles here */
+main {
+  padding-top: 8rem;
+}
 
 .membership-section {
     text-align: center;
@@ -18,12 +21,18 @@
   
   .membership-plan {
     width: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid #6d6a6a;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
     text-align: left;
   }
+  .membership-plan:hover {
+    background-color: rgba(245, 245, 245, 0.8);
+    cursor: pointer;
+  }
+  
   
   .membership-plan h2 {
     font-size: 1.8em;
@@ -40,4 +49,6 @@
     font-weight: bold;
     color: #ff8800;
   }
-  
+  footer {
+   position: fixed;
+  }

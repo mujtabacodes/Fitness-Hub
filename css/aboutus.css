@@ -28,6 +28,7 @@ main {
     height: auto;
 }
 
+
 /* Media query for responsiveness */
 @media (min-width: 768px) {
     .about-us {

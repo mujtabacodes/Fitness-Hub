@@ -1,5 +1,8 @@
 /* Add your CSS styles here */
-
+main {
+  padding: 20px;
+  padding-top: 10rem;
+}
 .success-stories-section {
     text-align: center;
     padding: 50px 20px;
